@@ -20,4 +20,5 @@ protected:
 public:	
 	virtual void Tick(float DeltaTime) override;
 
+	TArray<AActor> Actors;
 };
